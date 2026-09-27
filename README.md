@@ -1,8 +1,10 @@
-# SIA Agent Runtime
+# SIA — Structured Intelligence Agent
+
+### SIA Agent Runtime
 
 **Local-first reliability layer for small language models.**
 
-SIA is an experimental AI agent runtime focused on making smaller local models more dependable at real software-development work. Instead of relying only on a larger model, SIA moves more reliability into the runtime: planning, tool selection, validation, verification, recovery, and evidence-based completion.
+**SIA (Structured Intelligence Agent)** is an experimental AI agent runtime focused on making smaller local models more dependable at real software-development work. Instead of relying only on a larger model, SIA moves more reliability into the runtime: planning, tool selection, validation, verification, recovery, and evidence-based completion.
 
 > **Public showcase repository**  
 > This repository intentionally contains architecture notes, design documents, and safe examples only. The proprietary SIA implementation is not published here.
@@ -139,7 +141,7 @@ Not included:
 ## Author
 
 **Mahmoud Hisham**  
-Developer of SIA Agent Runtime  
+Developer of SIA — Structured Intelligence Agent  
 GitHub: [@Turkeyz1](https://github.com/Turkeyz1)
 
 ---
