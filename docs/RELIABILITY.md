@@ -89,3 +89,8 @@ Local reliability telemetry can include:
 - memory/resource usage
 
 The intended default is local/private telemetry rather than external tracking.
+
+---
+
+**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
