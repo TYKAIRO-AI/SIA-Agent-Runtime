@@ -92,5 +92,5 @@ The intended default is local/private telemetry rather than external tracking.
 
 ---
 
-**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**Project Owner & Creator:** Mahmoud Hisham  
 **GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
