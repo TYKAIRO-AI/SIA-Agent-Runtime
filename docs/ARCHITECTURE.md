@@ -149,3 +149,8 @@ The controller remains responsible for:
 - shared state
 - verification
 - stopping conditions
+
+---
+
+**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
