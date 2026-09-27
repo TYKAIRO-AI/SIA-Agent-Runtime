@@ -38,7 +38,10 @@ Focus:
 - permissions
 - result validation
 - recovery taxonomy
-- reliability telemetry
+- reliability telemetry from Stage C onward
+- model/tool call metrics
+- repair and verification-failure metrics
+- execution-time and resource/context measurements
 
 ## Stage D — MCP Integration
 
@@ -52,6 +55,8 @@ Focus:
 - approvals
 - timeouts
 - output limits
+- OpenAPI-to-tool/MCP importer
+- later exporter/generator experiments
 
 ## Stage E — Context Intelligence
 
@@ -62,7 +67,8 @@ Focus:
 - budget management
 - compaction
 - large-output handling
-- persistent agent state
+- persistent agent state independent of the UI
+- durable Goal / Plan / Artifacts / Evidence / Tool State / Progress
 
 ## Stage F — Skills
 
@@ -76,13 +82,16 @@ Focus:
 
 ## Stage G — Controlled Workers
 
-Status: **Later stage**
+Status: **Architecture exploration / later implementation**
 
 Focus:
 - controller-owned workers
 - narrow task scopes
 - sequential operation on limited hardware
 - independent verification
+- chief/controller delegation
+- bounded build → verify → repair loops
+- worker isolation so multi-agent capability cannot bypass SIA reliability gates
 
 ## Stage H — Model Routing
 
@@ -108,5 +117,7 @@ Current v0 measurements:
 - resource usage
 
 Status: **Harness available; controlled comparative results pending.**
+
+Telemetry should begin during Stage C and mature alongside later stages rather than being postponed until the end of the roadmap.
 
 Public benchmark results should be published only after an actual controlled run. Synthetic or placeholder values must not be presented as evidence of SIA performance.
