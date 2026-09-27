@@ -52,6 +52,23 @@ Self Review -> Bounded Repair
 Evidence-Based Completion
 ```
 
+## Project Status — September 27, 2026
+
+SIA is currently in the **reliability hardening and tool-intelligence phase**.
+
+Current public-safe status:
+
+- deterministic planning and requirement/artifact tracking are implemented
+- project-wide verification, self-review, bounded repair, stale-evidence invalidation, and completion gates are implemented and being hardened
+- reliable tool intelligence is the active engineering focus
+- the public benchmark harness v0 is available, while controlled comparative SIA-vs-baseline results are still pending
+- reliability telemetry is being brought forward into the current stage so tool/model calls, repairs, verification failures, execution time, and resource usage can be measured early
+- persistent agent state is planned for goals, plans, artifacts, evidence, tool state, and progress independent of the UI
+- MCP interoperability remains a major next layer, including an OpenAPI-to-tool/MCP import path
+- controlled worker-agent / multi-agent orchestration is now under architecture exploration, but broader autonomy will stay behind SIA's verification and reliability gates
+
+> Private development regression suites have reached large passing-test milestones across development iterations. These internal counts are engineering evidence, not public benchmark scores.
+
 ## Current Focus
 
 ### Planning & execution control
@@ -68,13 +85,14 @@ Evidence-Based Completion
 - completion gates to reduce false success
 
 ### Tool intelligence
-The next architecture layer focuses on:
+The active architecture layer focuses on:
 - unified native/MCP/custom tool registry
-- intent-to-tool routing
+- capability-aware intent-to-tool routing
 - input schema validation
 - deterministic repair of simple argument errors
 - permission and risk controls
 - tool-result verification
+- recovery taxonomy and reliability telemetry
 
 ## Design Principles
 
@@ -93,12 +111,15 @@ The next architecture layer focuses on:
 | Artifact / requirement tracking | Implemented |
 | Project-wide verification | Implemented |
 | Self-review and bounded repair | Implemented |
-| Reliable tool intelligence | In progress |
+| Reliable tool intelligence | **In progress** |
+| Reliability telemetry | **Starting in current stage** |
 | MCP interoperability | Planned |
+| OpenAPI → Tool/MCP import | Planned |
 | Context intelligence | Planned |
+| Persistent agent state | Planned |
 | Reusable skills/workflows | Planned |
-| Controlled worker agents | Later stage |
-| Benchmark harness | Initial public v0 available |
+| Controlled worker agents | Architecture exploration / later implementation |
+| Benchmark harness | **Public v0 available; controlled comparison pending** |
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and [docs/ROADMAP.md](docs/ROADMAP.md).
 
