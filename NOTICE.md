@@ -2,7 +2,9 @@
 
 Copyright © 2026 Mahmoud Hisham. All rights reserved.
 
-This repository is a public engineering showcase for **SIA Agent Runtime**.
+This repository is a public engineering showcase for **SIA — Structured Intelligence Agent / SIA Agent Runtime**.
+
+**Project Owner & Creator:** Mahmoud Hisham (aka Turkey).
 
 It intentionally excludes the proprietary production implementation. Public visibility allows people to inspect the materials in this repository, but no license is granted here to use, reproduce, distribute, sublicense, or commercialize proprietary SIA implementation code.
 
