@@ -53,7 +53,7 @@ This makes SIA especially relevant for people who want practical local AI withou
 
 AI writes much of the implementation, but SIA is not being developed without human contribution.
 
-**Mahmoud Hisham** acts as the project's product and development director.
+**Mahmoud Hisham (aka Turkey) is the owner, creator, and founder of SIA.** He leads the project's product direction and development direction, defines requirements and priorities, evaluates behavior, tests results, and gives final approval for what becomes part of the project.
 
 His role includes:
 
@@ -181,7 +181,8 @@ and toward being able to say:
 
 ## Project Status
 
-- **Project:** SIA
+- **Project:** SIA — Structured Intelligence Agent
+- **Project Owner & Creator:** Mahmoud Hisham (aka Turkey)
 - **Category:** Software Engineering Agent
 - **Development approach:** AI-Native Development
 - **Manual coding by the project owner:** None
@@ -198,5 +199,7 @@ while gradually requiring less human intervention.
 
 ---
 
+**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
 **Author:** Mahmoud Hisham  
-**Project:** SIA Agent Runtime
+**Project:** SIA — Structured Intelligence Agent / SIA Agent Runtime  
+**GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
