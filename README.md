@@ -159,11 +159,11 @@ Not included:
 - production orchestration code
 - private test corpus
 
-## Author
+## Project Ownership
 
-**Mahmoud Hisham**  
-Developer of SIA — Structured Intelligence Agent  
-GitHub: [@Turkeyz1](https://github.com/Turkeyz1)
+**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**Role:** Founder, product direction, development direction, testing, verification, and final approval of SIA — Structured Intelligence Agent  
+**GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
 
 ---
 
