@@ -88,3 +88,8 @@ node benchmarks/v0/score.mjs baseline.json sia.json
 No comparative SIA numbers should be published until they come from an actual controlled run. Example or synthetic values must be labeled as such and must not be presented as evidence of production performance.
 
 This benchmark is intentionally small. The goal of v0 is reproducibility and honest measurement before broader coverage.
+
+---
+
+**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
