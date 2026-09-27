@@ -121,3 +121,8 @@ Status: **Harness available; controlled comparative results pending.**
 Telemetry should begin during Stage C and mature alongside later stages rather than being postponed until the end of the roadmap.
 
 Public benchmark results should be published only after an actual controlled run. Synthetic or placeholder values must not be presented as evidence of SIA performance.
+
+---
+
+**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
