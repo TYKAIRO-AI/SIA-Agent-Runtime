@@ -124,5 +124,5 @@ Public benchmark results should be published only after an actual controlled run
 
 ---
 
-**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**Project Owner & Creator:** Mahmoud Hisham  
 **GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
