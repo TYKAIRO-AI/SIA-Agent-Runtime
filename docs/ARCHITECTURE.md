@@ -152,5 +152,5 @@ The controller remains responsible for:
 
 ---
 
-**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**Project Owner & Creator:** Mahmoud Hisham  
 **GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
