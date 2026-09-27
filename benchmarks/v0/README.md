@@ -91,5 +91,5 @@ This benchmark is intentionally small. The goal of v0 is reproducibility and hon
 
 ---
 
-**Project Owner & Creator:** Mahmoud Hisham (aka Turkey)  
+**Project Owner & Creator:** Mahmoud Hisham  
 **GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
