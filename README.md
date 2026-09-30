@@ -1,5 +1,7 @@
 # SIA — Structured Intelligence Agent
 
+
+> **A TYKAIRO AI product** — Founded by **Mahmoud Hisham**
 ### SIA Agent Runtime
 
 **Local-first reliability layer for small language models.**
