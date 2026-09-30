@@ -163,6 +163,7 @@ Not included:
 ## Project Ownership
 
 **Project Owner & Creator:** Mahmoud Hisham  
+**Organization:** [TYKAIRO AI](https://github.com/TYKAIRO-AI)  
 **Role:** Founder, product direction, development direction, testing, verification, and final approval of SIA — Structured Intelligence Agent  
 **GitHub:** [@Turkeyz1](https://github.com/Turkeyz1)
 
