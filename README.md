@@ -1,25 +1,29 @@
 # SIA — Structured Intelligence Agent
 
 > **A TYKAIRO AI product** — Founded by **Mahmoud Hisham**
-### SIA Agent Runtime
 
-**Local-first reliability layer for small language models.**
+**Local-first reliability layer for small language models — structured planning, tool intelligence, verification, bounded recovery, and evidence-based completion.**
+
+[![Status](https://img.shields.io/badge/status-active%20development-informational)](#project-status)
+[![Local First](https://img.shields.io/badge/local--first-AI-informational)](#design-principles)
+[![Research](https://img.shields.io/badge/public-research%20%26%20architecture-informational)](#repository-scope)
+[![TYKAIRO AI](https://img.shields.io/badge/by-TYKAIRO%20AI-informational)](https://github.com/TYKAIRO-AI)
 
 **SIA (Structured Intelligence Agent)** is an experimental AI agent runtime focused on making smaller local models more dependable at real software-development work. Instead of relying only on a larger model, SIA moves more reliability into the runtime: planning, tool selection, validation, verification, recovery, and evidence-based completion.
 
 > **Public showcase repository**  
-> This repository intentionally contains architecture notes, design documents, and safe examples only. The proprietary SIA implementation is not published here.
+> This repository intentionally contains architecture notes, design documents, benchmark methodology, and safe examples only. The proprietary SIA implementation is not published here.
 
 ## Why SIA?
 
 Small local models can often understand a coding task, but reliability drops when they must:
 
-- plan multi-step work,
-- select and call tools correctly,
-- modify multiple project files,
-- recover from invalid tool arguments,
-- verify that changes really worked,
-- and avoid declaring success too early.
+- plan multi-step work
+- select and call tools correctly
+- modify multiple project files
+- recover from invalid tool arguments
+- verify that changes really worked
+- avoid declaring success too early
 
 SIA explores a runtime-first approach to those problems.
 
@@ -27,33 +31,25 @@ SIA explores a runtime-first approach to those problems.
 
 ```text
 User Goal
-   |
-   v
+   ↓
 Requirements
-   |
-   v
+   ↓
 Deterministic Planning
-   |
-   v
-Tool Resolution -> Schema Validation -> Permission Gate
-   |
-   v
+   ↓
+Tool Resolution → Schema Validation → Permission Gate
+   ↓
 Execution
-   |
-   v
+   ↓
 Result Validation
-   |
-   v
+   ↓
 Project-Wide Verification
-   |
-   v
-Self Review -> Bounded Repair
-   |
-   v
+   ↓
+Self Review → Bounded Repair
+   ↓
 Evidence-Based Completion
 ```
 
-## Project Status — September 27, 2026
+## Project Status
 
 SIA is currently in the **reliability hardening and tool-intelligence phase**.
 
@@ -63,10 +59,10 @@ Current public-safe status:
 - project-wide verification, self-review, bounded repair, stale-evidence invalidation, and completion gates are implemented and being hardened
 - reliable tool intelligence is the active engineering focus
 - the public benchmark harness v0 is available, while controlled comparative SIA-vs-baseline results are still pending
-- reliability telemetry is being brought forward into the current stage so tool/model calls, repairs, verification failures, execution time, and resource usage can be measured early
+- reliability telemetry is being brought forward so tool/model calls, repairs, verification failures, execution time, and resource usage can be measured early
 - persistent agent state is planned for goals, plans, artifacts, evidence, tool state, and progress independent of the UI
 - MCP interoperability remains a major next layer, including an OpenAPI-to-tool/MCP import path
-- controlled worker-agent / multi-agent orchestration is now under architecture exploration, but broader autonomy will stay behind SIA's verification and reliability gates
+- controlled worker-agent / multi-agent orchestration is under architecture exploration, behind SIA's verification and reliability gates
 
 > Private development regression suites have reached large passing-test milestones across development iterations. These internal counts are engineering evidence, not public benchmark scores.
 
@@ -86,7 +82,6 @@ Current public-safe status:
 - completion gates to reduce false success
 
 ### Tool intelligence
-The active architecture layer focuses on:
 - unified native/MCP/custom tool registry
 - capability-aware intent-to-tool routing
 - input schema validation
@@ -119,7 +114,7 @@ The active architecture layer focuses on:
 | Context intelligence | Planned |
 | Persistent agent state | Planned |
 | Reusable skills/workflows | Planned |
-| Controlled worker agents | Architecture exploration / later implementation |
+| Controlled worker agents | Architecture exploration |
 | Benchmark harness | **Public v0 available; controlled comparison pending** |
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and [docs/ROADMAP.md](docs/ROADMAP.md).
@@ -133,19 +128,14 @@ SIA should be measured against the **same local model on the same hardware and t
 
 Useful metrics include task success, tool-call success, invalid arguments, repair count, verification failures, false completion, runtime, and resource usage.
 
-A small public-safe benchmark harness is available in [`benchmarks/v0`](benchmarks/v0). It defines fixed generic reliability cases, a result schema, and a dependency-free scorer. **No comparative SIA performance numbers are published yet**; those should only be added after controlled runs using the same model, hardware, task set, and evaluation conditions.
-
+A public-safe benchmark harness is available in benchmarks/v0. **No comparative performance numbers are published yet**; results should only be added after controlled runs under the same model, hardware, task set, and evaluation conditions.
 
 ## Progress Reports
-
-Follow SIA's AI-native development journey through simple public progress reports:
 
 - [Report #001 — English](reports/001-ai-native-development-report.en.md)
 - [Report #001 — العربية](reports/001-ai-native-development-report.ar.md)
 
 ## Repository Scope
-
-This public repository is meant to communicate the engineering direction of SIA without exposing its private production code.
 
 Included:
 - architecture documentation
@@ -159,6 +149,12 @@ Not included:
 - private prompts or internal policies
 - production orchestration code
 - private test corpus
+
+## Follow the project
+
+If SIA's reliability-first approach is useful to you, star the repository and watch releases to follow public benchmark work, architecture updates, and future interoperability milestones.
+
+Ideas and discussion around reliable local-agent runtimes are welcome through GitHub Issues.
 
 ## Project Ownership
 
