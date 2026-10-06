@@ -11,6 +11,21 @@
 
 **SIA (Structured Intelligence Agent)** is an experimental AI agent runtime focused on making smaller local models more dependable at real software-development work. Instead of relying only on a larger model, SIA moves more reliability into the runtime: planning, tool selection, validation, verification, recovery, and evidence-based completion.
 
+## Model & Hardware Target
+
+SIA is currently focused primarily on **3B–8B local models**, with most development and testing currently being done with **Qwen2.5 Coder Tools 7B**.
+
+| Model size | Current SIA focus | Notes |
+|---|---|---|
+| **1B–3B** | Experimental | Needs more testing |
+| **3B–8B** | **Primary target** | Main development and testing range |
+| **10B–14B** | Planned testing | Hardware dependent |
+| **30B+** | Not the main goal | SIA is intended to reduce dependence on much larger local models |
+
+SIA does **not** claim to make a 7B model equivalent to a 30B+ model. The goal is to measure how much structured planning, tool use, validation, bounded repair/retries, and state management can improve the reliability of smaller models.
+
+Rather than publishing guessed hardware requirements, SIA will document measured results as testing expands, including **RAM/VRAM usage, execution time, model/tool calls, repair attempts, task success rate, and raw-model-vs-SIA comparisons**.
+
 > **Public showcase repository**  
 > This repository intentionally contains architecture notes, design documents, benchmark methodology, and safe examples only. The proprietary SIA implementation is not published here.
 
