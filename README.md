@@ -9,6 +9,12 @@
 [![Research](https://img.shields.io/badge/public-research%20%26%20architecture-informational)](#repository-scope)
 [![TYKAIRO AI](https://img.shields.io/badge/by-TYKAIRO%20AI-informational)](https://github.com/TYKAIRO-AI)
 
+## Desktop Interface Preview
+
+![SIA desktop interface showcase — Home, Blueprints, Dashboard and Settings](sia_showcase_public_safe.png)
+
+*Visual overview of the SIA desktop interface. Interface features remain under active development.*
+
 **SIA (Structured Intelligence Agent)** is an experimental AI agent runtime focused on making smaller local models more dependable at real software-development work. Instead of relying only on a larger model, SIA moves more reliability into the runtime: planning, tool selection, validation, verification, recovery, and evidence-based completion.
 
 ## Model & Hardware Target
