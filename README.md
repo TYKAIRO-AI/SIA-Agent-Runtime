@@ -155,6 +155,7 @@ A public-safe benchmark harness is available in benchmarks/v0. **No comparative 
 
 - [Report #001 — English](reports/001-ai-native-development-report.en.md)
 - [Report #001 — العربية](reports/001-ai-native-development-report.ar.md)
+- [Report #002 — English](reports/002-weekly-progress-2026-10-10.en.md)
 
 ## Repository Scope
 
